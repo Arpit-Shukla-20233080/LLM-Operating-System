@@ -1,0 +1,53 @@
+{
+  "mcp_google_workspace_mcp_gmail_list_messages": {
+    "examples": [
+      {
+        "user": "Show me my latest 5 emails",
+        "tool_call": {
+          "name": "mcp_google_workspace_mcp_gmail_list_messages",
+          "arguments": {"max_results": 5}
+        }
+      },
+      {
+        "user": "Find emails from john@example.com",
+        "tool_call": {
+          "name": "mcp_google_workspace_mcp_gmail_list_messages",
+          "arguments": {"query": "from:john@example.com"}
+        }
+      }
+    ]
+  },
+  "mcp_google_workspace_mcp_gmail_get_message": {
+    "examples": [
+      {
+        "user": "Read the email with ID abc123def456",
+        "tool_call": {
+          "name": "mcp_google_workspace_mcp_gmail_get_message",
+          "arguments": {"message_id": "abc123def456"}
+        }
+      }
+    ]
+  },
+  "mcp_google_workspace_mcp_calendar_list_events": {
+    "examples": [
+      {
+        "user": "What meetings do I have early today?",
+        "tool_call": {
+          "name": "mcp_google_workspace_mcp_calendar_list_events",
+          "arguments": {"time_min": "2026-03-14T00:00:00Z", "time_max": "2026-03-14T12:00:00Z"}
+        }
+      }
+    ]
+  },
+  "mcp_google_workspace_mcp_drive_search": {
+    "examples": [
+      {
+        "user": "Find the Q3 planning document",
+        "tool_call": {
+          "name": "mcp_google_workspace_mcp_drive_search",
+          "arguments": {"query": "name contains 'Q3 planning'"}
+        }
+      }
+    ]
+  }
+}
