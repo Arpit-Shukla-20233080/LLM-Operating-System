@@ -21,6 +21,8 @@
 
 </div>
 
+![LLM OS Architecture](./architecture.jpeg)
+
 ## 🔮 The Paradigm Shift
 
 Traditional operating systems force *you* to learn each application's interface, manually drag data between tools, and burn cognitive energy on constant context switching. **LLM OS inverts this model entirely.**
@@ -109,6 +111,7 @@ This is not a chatbot wrapped in a desktop skin. It's a **complete operating-sys
 ---
 
 ## 🏗️ High-Level Architecture
+
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
